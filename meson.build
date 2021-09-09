@@ -13,6 +13,7 @@ headers = [
     'include/gutil_idlepool.h',
     'include/gutil_idlequeue.h',
     'include/gutil_inotify.h',
+    'include/gutil_intarray.h',
     'include/gutil_ints.h',
     'include/gutil_log.h',
     'include/gutil_macros.h',
