@@ -24,7 +24,7 @@ headers = [
     'include/gutil_types.h',
 ]
 
-install_headers(headers, subdir : 'libglibutil')
+install_headers(headers, subdir : 'gutil')
 
 sources = [
     'src/gutil_history.c',
@@ -55,6 +55,6 @@ pc.generate(
     lib,
     name : 'libglibutil',
     description : 'Library of glib utilities',
-    subdirs : 'libglibutil',
+    subdirs : 'gutil',
     requires : [glib],
 )
